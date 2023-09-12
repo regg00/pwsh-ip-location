@@ -1,0 +1,32 @@
+name: Test and deploy
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: windows-2019
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Perform Pester tests
+        shell: pwsh
+        run: |
+          Invoke-Pester Tests\* -Passthru
+
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Publish module
+        uses: natescherer/publish-powershell-action@v1.0.3
+        with:
+          token: ${{ secrets.PS_GALLERY_KEY }}
+          target: gallery
+          path: .
