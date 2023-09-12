@@ -1,2 +1,2 @@
-Import-Module .\GeoIPPowerShell.psd1 -Force
-New-MarkdownHelp -module GeoIPPowerShell -OutputFolder .\Docs\ -Force -AlphabeticParamsOrder
+Import-Module .\GeoIP.psd1 -Force
+New-MarkdownHelp -module GeoIP -OutputFolder .\Docs\ -Force -AlphabeticParamsOrder

@@ -1,6 +1,6 @@
 ---
-external help file: GeoIPPowerShell-help.xml
-Module Name: GeoIPPowerShell
+external help file: GeoIP-help.xml
+Module Name: GeoIP
 online version:
 schema: 2.0.0
 ---
