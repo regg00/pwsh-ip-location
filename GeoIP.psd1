@@ -68,8 +68,7 @@
             ProjectUri = 'https://github.com/regg00/pwsh-ip-location'
 
             # A URL to an icon representing this module.
-            #TODO: Update icon
-            IconUri    = 'https://raw.githubusercontent.com/regg00/ChocoMan/main/Docs/icon.png'
+            IconUri    = 'https://github.com/regg00/pwsh-ip-location/blob/main/Docs/icon.png?raw=true'
 
             # ReleaseNotes of this module
             # ReleaseNotes = ''

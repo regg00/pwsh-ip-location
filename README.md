@@ -13,23 +13,17 @@ I needed an easy way to query GeoIP databases using PowerShell. I got tired or u
 
 ## Installing this module
 
-TODO: Replace module URL
-This module is available in [PowerShell Gallery](https://www.powershellgallery.com/packages/ChocoMan):
+This module is available in [PowerShell Gallery](https://www.powershellgallery.com/packages/GeoIP):
 
 ```powershell
-Install-Module ChocoMan
+Install-Module GeoIP
 ```
 
 Or, download it from here and save all of the files somewhere in your `$PSModulePath`.
 
 ## Using the module
 
-First things first, you need to import it `Import-Module ChocoMan`
-
-### Demo
-
-TODO: Replace GIF demo
-<img src="./Docs/demo.gif" height="500">
+First things first, you need to import it `Import-Module GeoIP`
 
 ### Functions
 
