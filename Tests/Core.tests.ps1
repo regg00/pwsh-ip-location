@@ -58,6 +58,20 @@ Describe 'Core' {
     }
 }
 
+Describe 'Integrated tests' {
+
+    It 'Should succeed' {
+        (Get-IPLocation 8.8.8.8).success | Should -Be $True
+    }
+    It 'Should return US country' {
+        (Get-IPLocation 8.8.8.8).country_code | Should -Be "US"
+    }
+    It 'Should return North America continent' {
+        (Get-IPLocation 8.8.8.8).continent | Should -Be "North America"
+    }
+
+}
+
 Describe 'Module loads' {
     It 'Passed Module load' {
         Get-Module -Name $ModuleName | Should -Not -Be $null
