@@ -1,10 +1,7 @@
-TODO: Cjang
-![Tests](https://github.com/regg00/ChocoMan/actions/workflows/test-and-deploy.yaml/badge.svg)
-![Docs](https://github.com/regg00/ChocoMan/actions/workflows/build-doc.yaml/badge.svg)
-[![GitHub issues](https://img.shields.io/github/issues/regg00/ChocoMan.svg)](https://github.com/regg00/ChocoMan/issues)
+![Tests](https://github.com/regg00/pwsh-ip-location/actions/workflows/test-and-deploy.yaml/badge.svg)
+[![GitHub issues](https://img.shields.io/github/issues/regg00/pwsh-ip-location.svg)](https://github.com/regg00/pwsh-ip-location/issues)
 
-TODO: Replace icons
-<img src="./Docs/icon.png" height="200">
+<img src="./Docs/icon.png" height="200" style="border-radius: 10%;">
 
 # GeoIP PowerShell
 
